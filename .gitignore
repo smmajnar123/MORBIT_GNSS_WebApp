@@ -1,0 +1,49 @@
+# Visual Studio / IDE
+.vs/
+*.user
+*.suo
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+out/
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+*.log
+*.tlog
+*.tmp
+
+# Packages
+*.nupkg
+packages/
+
+# ASP.NET temporary files
+App_Data/
+*.publish.xml
+*.vsix
+*.dbmdl
+*.bak
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Others
+*.swp
+*.pidb
+*.mdb
+*.opendb
+*.VC.db
+
+# Node / npm (if using frontend)
+node_modules/
+dist/
