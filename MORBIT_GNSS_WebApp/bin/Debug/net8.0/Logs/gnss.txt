@@ -1,0 +1,193 @@
+12:07:12 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:07:12 | Connecting to port COM3 at 9600 baud.
+12:08:09 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:08:26 | Connecting to port COM3 at 9600 baud.
+12:09:22 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:09:37 | Connecting to port COM3 at 9600 baud.
+12:12:58 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:13:12 | Connecting to port COM3 at 9600 baud.
+12:14:16 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:14:28 | Connecting to port COM5 at 9600 baud.
+12:14:31 | Serial port connected.
+12:44:49 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:45:12 | Connecting to port COM5 at 9600 baud.
+12:45:23 | Serial port connected.
+12:49:56 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:50:08 | Connecting to port COMP5 at 9600 baud.
+12:50:21 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:50:28 | Connecting to port COM5 at 9600 baud.
+12:50:28 | Serial port connected.
+12:50:58 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:51:06 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:51:50 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:52:11 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:58:17 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:58:17 | Connecting to port COM5 at 9600 baud.
+12:58:17 | Serial port connected.
+12:58:24 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+12:59:08 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:14:43 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:14:43 | Connecting to port COM5 at 9600 baud.
+13:14:43 | Serial port connected.
+13:14:49 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:15:52 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:08 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:08 | Connecting to port COM5 at 9600 baud.
+13:16:16 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:16 | Connecting to port COM5 at 9600 baud.
+13:16:23 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:23 | Connecting to port COM5 at 9600 baud.
+13:16:23 | Serial port connected.
+13:16:32 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:43 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:52 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:52 | Connecting to port COM5 at 9600 baud.
+13:16:54 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:54 | Connecting to port COM5 at 9600 baud.
+13:16:58 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:16:58 | Connecting to port COM5 at 9600 baud.
+13:17:02 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:02 | Connecting to port COM5 at 9600 baud.
+13:17:08 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:16 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:16 | Connecting to port COM5 at 9600 baud.
+13:17:25 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:32 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:32 | Connecting to port COM5 at 9600 baud.
+13:17:32 | Serial port connected.
+13:17:46 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:46 | Connecting to port COM5 at 9600 baud.
+13:17:54 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:17:54 | Connecting to port COM5 at 9600 baud.
+13:18:20 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:18:43 | Connecting to port COM5 at 9600 baud.
+13:19:23 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:19:32 | Connecting to port COM5 at 9600 baud.
+13:19:32 | Serial port connected.
+13:19:39 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:19:57 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:20:05 | Connecting to port COM5 at 9600 baud.
+13:20:10 | Serial port connected.
+13:20:34 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:57:09 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+13:57:31 | Connecting to port COM5 at 9600 baud.
+13:57:31 | Serial port connected.
+13:57:40 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:07:26 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:07:29 | Connecting to port COM5 at 9600 baud.
+14:07:29 | Serial port connected.
+14:08:19 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:08:42 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:08:55 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:09:22 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:23:00 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:23:00 | Connecting to port COM5 at 9600 baud.
+14:23:00 | Serial port connected.
+14:23:17 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:23:53 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:24:13 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:28:34 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:28:34 | Connecting to port COM5 at 9600 baud.
+14:28:34 | Serial port connected.
+14:28:53 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:02 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:06 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:10 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:15 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:21 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:24 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:27 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:32 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:29:55 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:30:11 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:30:15 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:30:20 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:30:34 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:30:52 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:31:24 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:47:03 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:47:03 | Connecting to port COM5 at 9600 baud.
+14:47:28 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:47:28 | Connecting to port COM5 at 9600 baud.
+14:47:28 | Serial port connected.
+14:47:35 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:47:47 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:48:30 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:48:42 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:50:11 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:11:47 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:11:49 | Connecting to port COM5 at 9600 baud.
+15:11:49 | Serial port connected.
+15:14:54 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:03 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:11 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:15 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:19 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:22 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:25 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:29 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:30 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:31 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:37 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:15:47 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:16:00 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:16:38 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:18:46 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:18:46 | Connecting to port COM5 at 9600 baud.
+15:18:46 | Serial port connected.
+15:18:51 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:18:51 | Connecting to port COM5 at 9600 baud.
+15:19:14 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:19:32 | Connecting to port COM5 at 9600 baud.
+15:21:58 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:22:00 | Connecting to port COM5 at 9600 baud.
+15:22:00 | Serial port connected.
+15:22:12 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:22:38 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:33:28 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:33:32 | Connecting to port COM5 at 9600 baud.
+15:33:32 | Serial port connected.
+15:33:39 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:34:17 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:52:07 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:52:11 | Connecting to port COM5 at 9600 baud.
+15:52:11 | Serial port connected.
+15:53:47 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:53:59 | Connecting to port COM5 at 9600 baud.
+15:53:59 | Serial port connected.
+15:54:07 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+15:54:24 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+16:57:33 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+16:57:35 | Connecting to port COM5 at 9600 baud.
+16:58:07 | Connecting to port COM5 at 9600 baud.
+16:58:10 | Serial port connected.
+16:59:13 | Serial disconnected
+17:23:36 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+17:23:39 | Connecting to port COM5 at 9600 baud.
+17:25:07 | Connecting to port COM5 at 9600 baud.
+17:25:07 | Serial port connected.
+17:25:26 | Serial disconnected
+17:26:26 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+17:26:26 | Connecting to port COM5 at 9600 baud.
+17:26:26 | Serial port connected.
+17:26:43 | Serial disconnected
+17:27:21 | Connecting to port COM5 at 9600 baud.
+17:27:21 | Serial port connected.
+17:27:29 | Serial disconnected
+17:27:51 | Connecting to port COM5 at 9600 baud.
+17:27:52 | Serial port connected.
+17:28:08 | Serial disconnected
+17:32:03 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+17:32:04 | Connecting to port COM5 at 9600 baud.
+17:32:04 | Serial port connected.
+17:33:52 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+17:33:52 | Connecting to port COM5 at 9600 baud.
+17:33:52 | Serial port connected.
+12:10:47 | Error loading test data: Could not find file 'D:\M0201_MorbitGnns_2502261637.txt'.
+14:24:41 | Connecting to port comp1 at 9600 baud.
+14:24:49 | Connecting to port comp1 at 9600 baud.
+14:24:55 | Connecting to port comp1 at 9600 baud.
+14:28:44 | Connecting to port comp1 at 9600 baud.
+14:30:20 | Connecting to port comp1 at 9600 baud.
+14:31:37 | Connecting to port comp1 at 9600 baud.
+14:31:53 | Connecting to port comp1 at 9600 baud.

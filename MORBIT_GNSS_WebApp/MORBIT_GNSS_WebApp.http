@@ -1,0 +1,6 @@
+@MORBIT_GNSS_WebApp_HostAddress = http://localhost:5151
+
+GET {{MORBIT_GNSS_WebApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

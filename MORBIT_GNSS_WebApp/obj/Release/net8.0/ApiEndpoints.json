@@ -1,0 +1,68 @@
+[
+  {
+    "ContainingType": "MORBIT_GNSS_WebApp.Controllers.SerialController",
+    "Method": "GetBaudRates",
+    "RelativePath": "api/Serial/baudrates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MORBIT_GNSS_WebApp.Controllers.SerialController",
+    "Method": "GetPorts",
+    "RelativePath": "api/Serial/ports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MORBIT_GNSS_WebApp.Controllers.SerialGnssLogController",
+    "Method": "Connect",
+    "RelativePath": "api/SerialGnssLog/connect",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MORBIT_GNSS_WebApp.RequestDto.SerialConnectRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MORBIT_GNSS_WebApp.Controllers.SerialGnssLogController",
+    "Method": "Disconnect",
+    "RelativePath": "api/SerialGnssLog/disconnect",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MORBIT_GNSS_WebApp.Controllers.SerialGnssLogController",
+    "Method": "GetLogs",
+    "RelativePath": "api/SerialGnssLog/logs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MORBIT_GNSS_WebApp.Controllers.SerialGnssLogController",
+    "Method": "GetStatus",
+    "RelativePath": "api/SerialGnssLog/status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
