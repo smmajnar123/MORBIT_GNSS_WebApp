@@ -1,6 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
 using MORBIT_GNSS_APP.Core.Abstract;
 using MORBIT_GNSS_APP.Core.Interface;
+using MORBIT_GNSS_APP.DataAccessLayer.Models;
+using MORBIT_GNSS_APP.Repository.IRepository;
 using MORBIT_GNSS_APP.Service.IService;
 using MORBIT_GNSS_APP.Service.Models;
 using MORBIT_GNSS_APP.Shared.Common;
@@ -12,6 +14,7 @@ namespace MORBIT_GNSS_APP.Core.Models
     public class SerialGnssServiceModel : NmeaLogParserBase, ISerialGnssServiceModel, IDisposable
     {
         private readonly ILogger<SerialGnssServiceModel> _logger;
+        public IGnssDataRepository GnssDataRepository { get; set; }
 
         #region Constructor
         public SerialGnssServiceModel(ILogger<SerialGnssServiceModel> logger, ISerialGnssService serialGnssService, INmeaLogParseServiceModel nmeaLogParseServiceModel, IGnssEvent gnssEvent)
@@ -142,6 +145,24 @@ namespace MORBIT_GNSS_APP.Core.Models
                             }
                             break;
                         }
+                }
+
+                if (GnssDataModels.Count > 0)
+                {
+                    if (GnssDataRepository!=null)
+                    {
+                        foreach (var dataModel in GnssDataModels)
+                        {
+                            var entity = new GnssData
+                            {
+                                Id = Guid.NewGuid(),
+                                GnssNmeaJson = System.Text.Json.JsonSerializer.Serialize(dataModel.GnssNmeaModel),
+                                CreatedAt = DateTime.UtcNow
+                            };
+                            GnssDataRepository.AddAsync(entity);
+                        }
+                        GnssDataModels.Clear();
+                    }
                 }
             }
             catch (Exception ex)

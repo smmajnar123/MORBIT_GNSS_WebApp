@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MORBIT_GNSS_APP.Service", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MORBIT_GNSS_APP.Shared", "MORBIT_GNSS_APP.Shared\MORBIT_GNSS_APP.Shared.csproj", "{429ED38C-4B2F-D1C3-F4E0-3F82CC8D0D1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MORBIT_GNSS_APP.Repository", "MORBIT_GNSS_APP.Repository\MORBIT_GNSS_APP.Repository.csproj", "{7FE45936-8C15-4C5D-A53A-DA7F1A178B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MORBIT_GNSS_APP.DataAccessLayer", "MORBIT_GNSS_APP.DataAccessLayer\MORBIT_GNSS_APP.DataAccessLayer.csproj", "{209F3C63-3BFC-4562-8E4E-DF16FBAD030C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{429ED38C-4B2F-D1C3-F4E0-3F82CC8D0D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{429ED38C-4B2F-D1C3-F4E0-3F82CC8D0D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{429ED38C-4B2F-D1C3-F4E0-3F82CC8D0D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FE45936-8C15-4C5D-A53A-DA7F1A178B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE45936-8C15-4C5D-A53A-DA7F1A178B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE45936-8C15-4C5D-A53A-DA7F1A178B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE45936-8C15-4C5D-A53A-DA7F1A178B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{209F3C63-3BFC-4562-8E4E-DF16FBAD030C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{209F3C63-3BFC-4562-8E4E-DF16FBAD030C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{209F3C63-3BFC-4562-8E4E-DF16FBAD030C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{209F3C63-3BFC-4562-8E4E-DF16FBAD030C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

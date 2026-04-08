@@ -1,10 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MORBIT_GNSS_APP.Core.Interface;
-using MORBIT_GNSS_APP.Service.IService;
-using MORBIT_GNSS_APP.Service.Models;
-using MORBIT_GNSS_APP.Shared.Helpers;
+using MORBIT_GNSS_APP.Repository.IRepository;
 using MORBIT_GNSS_WebApp.RequestDto;
-using static MORBIT_GNSS_APP.Shared.Enums.GnssEnum;
 
 namespace MORBIT_GNSS_WebApp.Controllers
 {
@@ -14,10 +11,11 @@ namespace MORBIT_GNSS_WebApp.Controllers
     {
         private readonly ISerialGnssServiceModel serialGnssServiceModel;
         private readonly ILogger<SerialGnssLogController> _logger;
-        public SerialGnssLogController(ILogger<SerialGnssLogController> logger, ISerialGnssServiceModel serialGnssServiceModel)
+        public SerialGnssLogController(ILogger<SerialGnssLogController> logger, ISerialGnssServiceModel serialGnssServiceModel, IGnssDataRepository gnssDataRepository)
         {
             _logger = logger;
             this.serialGnssServiceModel = serialGnssServiceModel;
+            this.serialGnssServiceModel.GnssDataRepository = gnssDataRepository;
         }
        
         // ✅ CONNECT / DISCONNECT
@@ -93,24 +91,10 @@ namespace MORBIT_GNSS_WebApp.Controllers
         }
 
         [HttpGet("logs")]
-        public IActionResult GetLogs()
+        public async Task<IActionResult> GetLogs()
         {
-            List<string> logs = [];
-            _logger.LogInformation("Fetching GNSS logs" + GnssLogStore.Get().Count);
-#if (DEBUG)
-            logs = GnssLogStore.Get();
-#endif
-#if (!DEBUG)
-            if (serialGnssServiceModel.IsConnected)
-            {
-                logs = GnssLogStore.Get();
-            }
-            else
-            {
-                return BadRequest("Not connected to any GNSS device");
-            }
-#endif
-            return Ok(this.serialGnssServiceModel.GnssDataModels);
+            var data = this.serialGnssServiceModel.GnssDataRepository != null ? await this.serialGnssServiceModel.GnssDataRepository.GetAllAsync() : null;
+            return Ok(data);
         }
     }
 

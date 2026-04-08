@@ -13,6 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MORBIT_GNSS_APP.Repository\MORBIT_GNSS_APP.Repository.csproj" />
     <ProjectReference Include="..\MORBIT_GNSS_APP.Service\MORBIT_GNSS_APP.Service.csproj" />
   </ItemGroup>
 

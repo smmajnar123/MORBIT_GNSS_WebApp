@@ -1,6 +1,12 @@
-﻿using MORBIT_GNSS_APP.Core.Events;
+﻿using Microsoft.EntityFrameworkCore;
+using MongoDB.Driver;
+using MORBIT_GNSS_APP.Core.Events;
 using MORBIT_GNSS_APP.Core.Interface;
 using MORBIT_GNSS_APP.Core.Models;
+using MORBIT_GNSS_APP.DataAccessLayer;
+using MORBIT_GNSS_APP.DataAccessLayer.Models;
+using MORBIT_GNSS_APP.Repository.IRepository;
+using MORBIT_GNSS_APP.Repository.Repository;
 using MORBIT_GNSS_APP.Service.IService;
 using MORBIT_GNSS_APP.Service.Models;
 using MORBIT_GNSS_APP.Service.Parse;
@@ -11,6 +17,25 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+//builder.Services.AddDbContext<MorbitGnssAppDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// MongoDB Settings
+builder.Services.Configure<MongoDbSettings>(
+    builder.Configuration.GetSection("MongoDbSettings"));
+
+// Mongo Client
+builder.Services.AddSingleton<IMongoClient>(sp =>
+{
+    var settings = builder.Configuration
+        .GetSection("MongoDbSettings")
+        .Get<MongoDbSettings>();
+
+    return new MongoClient(settings?.ConnectionString);
+});
+
+builder.Services.AddScoped<IGnssDataRepository, GnssDataRepository>();
 
 //core
 builder.Services.AddSingleton<ISerialGnssServiceModel, SerialGnssServiceModel>();
@@ -27,8 +52,6 @@ builder.Services.AddSingleton<ILogParse, GgaLogParse>();
 builder.Services.AddSingleton<ILogParse, GsaLogParse>();
 builder.Services.AddSingleton<ILogParse, RmcLogParse>();
 builder.Services.AddSingleton<ILogParse, GsvLogParse>();
-
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // ✅ Add CORS
